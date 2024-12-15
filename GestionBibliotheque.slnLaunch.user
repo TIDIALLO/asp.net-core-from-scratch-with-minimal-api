@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nouveau profil",
+    "Projects": [
+      {
+        "Path": "GestionBibilotheque.Api\\GestionBibilotheque.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

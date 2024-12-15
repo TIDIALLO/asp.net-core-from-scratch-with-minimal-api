@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "m0/1PN/cozbvwjaKcLlZJ6ZKlHPDZVIEiIMJUMNSCPc=",
+  "Source": "GestionBibilotheque.Api",
+  "BasePath": "_content/GestionBibilotheque.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

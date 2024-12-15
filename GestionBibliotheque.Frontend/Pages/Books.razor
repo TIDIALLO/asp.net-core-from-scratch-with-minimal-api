@@ -1,0 +1,51 @@
+@page "/books"
+@using GestionBibliotheque.Frontend.Services
+@using GestionBibliotheque.Frontend.Models
+@using MudBlazor
+
+@inject BookService BookService
+
+<MudContainer>
+    <MudPaper Elevation="4" Class="pa-4">
+        <MudText Typo="Typo.h3" Class="mb-4">Liste des livres</MudText>
+
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="LoadBooks">Charger les livres</MudButton>
+
+        @if (books == null)
+        {
+            <MudProgressLinear Indeterminate="true" Color="Color.Secondary" Class="mt-4" />
+            <MudText Typo="Typo.body1" Class="mt-4">Chargement...</MudText>
+        }
+        else if (books.Count == 0)
+        {
+            <MudText Typo="Typo.body1" Class="mt-4">Aucun livre trouvé.</MudText>
+        }
+        else
+        {
+            <MudTable Items="books" Dense="true" Hover="true" Striped="true" SortLabel="Trier par" Class="mt-4">
+                <HeaderContent>
+                    <MudTh>Titre</MudTh>
+                    <MudTh>Auteur</MudTh>
+                    <MudTh>Année de publication</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd DataLabel="Titre">@context.Title</MudTd>
+                    <MudTd DataLabel="Auteur">@context.Author</MudTd>
+                    <MudTd DataLabel="Année de publication">@context.DatePub</MudTd>
+                </RowTemplate>
+                <PagerContent>
+                    <MudTablePager />
+                </PagerContent>
+            </MudTable>
+        }
+    </MudPaper>
+</MudContainer>
+
+@code {
+    private List<BookDto> books;
+
+    private async Task LoadBooks()
+    {
+        books = await BookService.GetBooksAsync();
+    }
+}

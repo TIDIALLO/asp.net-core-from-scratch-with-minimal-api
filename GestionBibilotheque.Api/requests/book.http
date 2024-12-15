@@ -1,0 +1,33 @@
+GET http://localhost:5062/books
+
+###
+
+GET http://localhost:5062/books/4
+
+### 
+POST  http://localhost:5062/books
+Content-Type: application/json
+
+{
+    "title": "ASP.NET Core in Action",
+    "author": "Tidiane Diallo",
+    "datePub": "2024-04-02"
+}
+
+
+
+###
+PUT http://localhost:5062/books/8
+Content-Type: application/json
+
+{
+    "title": "ASP.NET Core in Action",
+    "author": "Tidiane Diallo",
+    "datePub": "2024-12-04"
+}
+
+
+###
+DELETE  http://localhost:5062/books/11
+
+

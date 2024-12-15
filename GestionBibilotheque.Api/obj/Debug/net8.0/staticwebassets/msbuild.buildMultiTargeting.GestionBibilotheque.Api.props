@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GestionBibilotheque.Api.props" />
+</Project>

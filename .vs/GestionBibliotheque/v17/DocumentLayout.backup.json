@@ -1,0 +1,219 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\isepp5\\codes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|e:\\isepp5\\codes\\gestionbibliotheque.frontend\\pages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|solutionrelative:gestionbibliotheque.frontend\\pages\\books.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|e:\\isepp5\\codes\\gestionbibliotheque.frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|solutionrelative:gestionbibliotheque.frontend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|e:\\isepp5\\codes\\gestionbibliotheque.frontend\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|solutionrelative:gestionbibliotheque.frontend\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|e:\\isepp5\\codes\\gestionbibliotheque.frontend\\models\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|solutionrelative:gestionbibliotheque.frontend\\models\\updatebookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|e:\\isepp5\\codes\\gestionbibliotheque.frontend\\models\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|solutionrelative:gestionbibliotheque.frontend\\models\\createbookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|e:\\isepp5\\codes\\gestionbibliotheque.frontend\\models\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43676AB8-EE1A-4D86-8147-C1C79ADE63DF}|GestionBibliotheque.Frontend\\GestionBibliotheque.Frontend.csproj|solutionrelative:gestionbibliotheque.frontend\\models\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\diall\\AppData\\Local\\Temp\\.vsdbgsrc\\7f988d92f74adc3858f108e90f6756bdbd458bdc1dfe85ac599bdac763b3f931\\AddressBinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Books.razor",
+              "DocumentMoniker": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Pages\\Books.razor",
+              "RelativeDocumentMoniker": "GestionBibliotheque.Frontend\\Pages\\Books.razor",
+              "ToolTip": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Pages\\Books.razor",
+              "RelativeToolTip": "GestionBibliotheque.Frontend\\Pages\\Books.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T22:32:07.205Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Program.cs",
+              "RelativeDocumentMoniker": "GestionBibliotheque.Frontend\\Program.cs",
+              "ToolTip": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Program.cs",
+              "RelativeToolTip": "GestionBibliotheque.Frontend\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T17:00:32.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateBookDto.cs",
+              "DocumentMoniker": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Models\\UpdateBookDto.cs",
+              "RelativeDocumentMoniker": "GestionBibliotheque.Frontend\\Models\\UpdateBookDto.cs",
+              "ToolTip": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Models\\UpdateBookDto.cs",
+              "RelativeToolTip": "GestionBibliotheque.Frontend\\Models\\UpdateBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:50:54.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateBookDto.cs",
+              "DocumentMoniker": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Models\\CreateBookDto.cs",
+              "RelativeDocumentMoniker": "GestionBibliotheque.Frontend\\Models\\CreateBookDto.cs",
+              "ToolTip": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Models\\CreateBookDto.cs",
+              "RelativeToolTip": "GestionBibliotheque.Frontend\\Models\\CreateBookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:50:52.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookDto.cs",
+              "DocumentMoniker": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Models\\BookDto.cs",
+              "RelativeDocumentMoniker": "GestionBibliotheque.Frontend\\Models\\BookDto.cs",
+              "ToolTip": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Models\\BookDto.cs",
+              "RelativeToolTip": "GestionBibliotheque.Frontend\\Models\\BookDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:50:40.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "GestionBibliotheque.Frontend\\Services\\BookService.cs",
+              "ToolTip": "E:\\isepp5\\codes\\GestionBibliotheque.Frontend\\Services\\BookService.cs",
+              "RelativeToolTip": "GestionBibliotheque.Frontend\\Services\\BookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:50:26.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddressBinder.cs",
+              "DocumentMoniker": "C:\\Users\\diall\\AppData\\Local\\Temp\\.vsdbgsrc\\7f988d92f74adc3858f108e90f6756bdbd458bdc1dfe85ac599bdac763b3f931\\AddressBinder.cs",
+              "ToolTip": "C:\\Users\\diall\\AppData\\Local\\Temp\\.vsdbgsrc\\7f988d92f74adc3858f108e90f6756bdbd458bdc1dfe85ac599bdac763b3f931\\AddressBinder.cs [Lecture seule]",
+              "ViewState": "AgIAAKQAAAAAAAAAAAAAwK4AAAADAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T16:48:56.622Z",
+              "EditorCaption": " [Lecture seule]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 975,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 716,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:22:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
