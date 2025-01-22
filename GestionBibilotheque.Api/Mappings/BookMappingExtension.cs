@@ -13,13 +13,12 @@ public static class BookMappingExtension
             Author = book.Author!,
             DatePub = book.DatePub
         };
-    }
+    } 
 
-    public static BookDto ToDto(this Book book)
+    public static CreateBookDto ToDto(this Book book)
     {
-       return new BookDto
+       return new CreateBookDto
         {
-            Id = book.Id,
             Title = book.Title,
             Author = book.Author,
             DatePub = book.DatePub

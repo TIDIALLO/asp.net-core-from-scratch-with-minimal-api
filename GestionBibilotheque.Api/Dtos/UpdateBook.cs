@@ -5,6 +5,6 @@ namespace GestionBibilotheque.Api.Dtos
     {
         public string Title { get; set; } = string.Empty;
         public string Author { get; set; } = string.Empty;
-        public DateOnly DatePub { get; set; }
+        public DateTime DatePub { get; set; }
     }
 }

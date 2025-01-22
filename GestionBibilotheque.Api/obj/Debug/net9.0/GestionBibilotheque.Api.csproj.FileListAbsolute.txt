@@ -130,3 +130,13 @@ E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.
 E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 E:\isepp5\codes\GestionBibilotheque.Api\obj\Debug\net9.0\GestionBibilotheque.Api.MvcApplicationPartsAssemblyInfo.cs
+E:\isepp5\codes\GestionBibilotheque.Api\obj\Debug\net9.0\GestionBibilotheque.Api.sourcelink.json
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.dll
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.AspNetCore.dll
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.Extensions.Hosting.dll
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.Extensions.Logging.dll
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.Formatting.Compact.dll
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.Settings.Configuration.dll
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.Sinks.Debug.dll
+E:\isepp5\codes\GestionBibilotheque.Api\bin\Debug\net9.0\Serilog.Sinks.File.dll

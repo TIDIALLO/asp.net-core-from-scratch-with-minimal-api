@@ -1,0 +1,36 @@
+@typeparam TItem
+
+<div class="d-flex justify-content-between">
+    <button class="btn btn-primary" @onclick="PreviousPage" disabled="@IsFirstPage">Précédent</button>
+    <span>Page @CurrentPage sur @TotalPages</span>
+    <button class="btn btn-primary" @onclick="NextPage" disabled="@IsLastPage">Suivant</button>
+</div>
+
+@code {
+    [Parameter] public int CurrentPage { get; set; }
+    [Parameter] public int PageSize { get; set; }
+    [Parameter] public int TotalItems { get; set; }
+    [Parameter] public EventCallback<int> OnPageChanged { get; set; }
+
+    private int TotalPages => (int)Math.Ceiling((double)TotalItems / PageSize);
+    private bool IsFirstPage => CurrentPage == 1;
+    private bool IsLastPage => CurrentPage == TotalPages;
+
+    private async Task PreviousPage()
+    {
+        if (CurrentPage > 1)
+        {
+            CurrentPage--;
+            await OnPageChanged.InvokeAsync(CurrentPage);
+        }
+    }
+
+    private async Task NextPage()
+    {
+        if (CurrentPage < TotalPages)
+        {
+            CurrentPage++;
+            await OnPageChanged.InvokeAsync(CurrentPage);
+        }
+    }
+}

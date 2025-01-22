@@ -1,0 +1,19 @@
+[2025-01-16 07:51:20 INF] La route '/books/1' a été appelée.
+[2025-01-16 07:51:39 INF] La route '/books/1' a été appelée.
+[2025-01-16 07:52:11 INF] La route '/books/1' a été appelée.
+[2025-01-16 07:55:09 INF] La route '/books/4' a été appelée.
+[2025-01-16 07:55:18 INF] La route '/books/1' a été appelée.
+[2025-01-16 07:59:22 INF] La route '/books/1' a été appelée.
+[2025-01-16 08:01:49 INF] La route '/books/1' a été appelée.
+[2025-01-16 08:06:47 INF] La route '/books/1' a été appelée.
+[2025-01-16 08:43:22 INF] La route '/books/1' a été appelée.
+[2025-01-16 12:26:56 ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Http.BadHttpRequestException: Implicit body inferred for parameter "newBookDto" but no body was provided. Did you mean to use a Service instead?
+   at lambda_method13(Closure, Object, HttpContext, Object)
+   at Microsoft.AspNetCore.Http.RequestDelegateFactory.<>c__DisplayClass101_2.<<HandleRequestBodyAndCompileRequestDelegateForJson>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+[2025-01-16 12:29:58 INF] La route '/books/6' a été appelée.
+[2025-01-16 14:10:26 INF] La route '/books/4' a été appelée.

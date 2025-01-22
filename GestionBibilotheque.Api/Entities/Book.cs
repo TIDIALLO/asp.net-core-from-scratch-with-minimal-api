@@ -5,6 +5,6 @@
             public int Id { get; set; }
             public required string Title { get; set; }
             public required string Author { get; set; }
-            public DateOnly DatePub{ get; set; }
+            public DateTime DatePub{ get; set; }
         }
     }

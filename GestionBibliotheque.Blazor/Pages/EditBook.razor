@@ -1,0 +1,62 @@
+@page "/editbook/{id:int}"
+@inject NavigationManager NavigationManager
+@inject IBookService BookService
+@using GestionBibliotheque.Blazor.Models;
+@using GestionBibliotheque.Blazor.Services
+
+<h3>Modifier un livre</h3>
+
+<EditForm Model="book" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="title" class="form-label">Titre</label>
+        <InputText id="title" class="form-control form-control-small" @bind-Value="book.Title" />
+        <ValidationMessage For="@(() => book.Title)" />
+    </div>
+    <div class="mb-3">
+        <label for="author" class="form-label">Auteur</label>
+        <InputText id="author" class="form-control form-control-small" @bind-Value="book.Author" />
+        <ValidationMessage For="@(() => book.Author)" />
+    </div>
+    <div class="mb-3">
+        <label for="datePub" class="form-label">Date de publication</label>
+        <InputDate id="datePub" class="form-control form-control-small" @bind-Value="book.DatePub" />
+        <ValidationMessage For="@(() => book.DatePub)" />
+    </div>
+    <button type="submit" class="btn btn-primary">Modifier</button>
+    <button type="button" class="btn btn-secondary" @onclick="GoBack">Retour à la liste</button>
+
+</EditForm>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+    private UpdateBookDto book = new UpdateBookDto();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var bookDto = await BookService.GetBookByIdAsync(id);
+        if (bookDto != null)
+        {
+            book = new UpdateBookDto
+                {
+                    Title = bookDto.Title,
+                    Author = bookDto.Author,
+                    DatePub = bookDto.DatePub
+                };
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        await BookService.UpdateBookAsync(id, book);
+        NavigationManager.NavigateTo("/books");
+    }
+    private void GoBack()
+    {
+        NavigationManager.NavigateTo("/books");
+    }
+}

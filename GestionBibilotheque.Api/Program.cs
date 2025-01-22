@@ -1,5 +1,6 @@
 using GestionBibilotheque.Api.Data;
 using GestionBibilotheque.Api.Enpoints;
+using GestionBibliotheque.Api.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +10,8 @@ builder.Services.AddSqlite<BookDbContext>(connectionString);
 
 builder.Services.AddAutoMapper(typeof(Program));
 
+// Configuration de Serilog
+builder.Host.AddSerilog();
 //Add Swagger
 builder.Services.AddEndpointsApiExplorer(); // Nécessaire pour documenter les endpoints minimal API
 builder.Services.AddSwaggerGen();
@@ -19,8 +22,9 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll", policy =>
     {
         policy.AllowAnyOrigin()
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+            .AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
     });
 });
 /*builder.Services.AddSwaggerGen(options =>

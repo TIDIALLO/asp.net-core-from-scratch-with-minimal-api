@@ -1,0 +1,91 @@
+@page "/books"
+@inject NavigationManager NavigationManager
+
+@using GestionBibliotheque.Blazor.Models;
+@using GestionBibliotheque.Blazor.Services
+@inject IBookService BookService
+
+<div class="d-flex justify-content-between mb-3">
+    <h3>Liste des livres</h3>
+    <button class="btn btn-dark" @onclick="AddBook">
+        <i class="fas fa-plus"></i> Ajouter Livre
+    </button>
+</div>
+@if (books == null)
+{
+    <p><em>Chargement...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Titre</th>
+                <th>Auteur</th>
+                <th>Date de publication</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in PagedBooks)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>@book.Author</td>
+                    <td>@book.DatePub.ToString("dd/MM/yyyy")</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditBook(book.Id)">
+                            <i class="fas fa-edit"></i> Modifier
+                        </button>
+                        <button class="btn btn-danger" @onclick="() => DeleteBook(book.Id)">
+                            <i class="fas fa-trash"></i>Supprimer
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <Pagination TItem="BookDto" CurrentPage="currentPage" PageSize="pageSize" TotalItems="totalItems"
+        OnPageChanged="LoadPage" />
+
+}
+
+@code {
+    private List<BookDto>? books;
+
+    // Pagination
+    private List<BookDto> PagedBooks => books?.Skip((currentPage - 1) * pageSize).Take(pageSize).ToList() ?? new
+    List<BookDto>();
+    private int currentPage = 1;
+    private int pageSize = 5;
+    private int totalItems => books?.Count ?? 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        books = await BookService.GetBooksAsync();
+    }
+
+
+    private void EditBook(int id)
+    {
+        // Rediriger vers la page de modification
+        NavigationManager.NavigateTo($"/editbook/{id}");
+    }
+
+    private void AddBook()
+    {
+        // Rediriger vers la page d'ajout de livre
+        NavigationManager.NavigateTo("/addbook");
+    }
+    private async Task DeleteBook(int id)
+    {
+        await BookService.DeleteBookAsync(id);
+        books = await BookService.GetBooksAsync();
+    }
+
+    private async Task LoadPage(int pageNumber)
+    {
+        currentPage = pageNumber;
+    }
+}
